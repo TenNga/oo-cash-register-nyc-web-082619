@@ -40,7 +40,6 @@ class CashRegister
     
     return 0.0 if @items.length == 0
     self.total -= @price
-    self.total
     
   end
 end
