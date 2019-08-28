@@ -40,7 +40,7 @@ class CashRegister
     
     return 0.0 if @items.length == 0
     self.total -= @price
-    @items.pop
+    self.total
     
   end
 end
